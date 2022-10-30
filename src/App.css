@@ -1,0 +1,67 @@
+.App {  
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 200px;
+  
+}
+
+.Header{
+    margin-top: -200px;
+    width: 100%;
+    height: 80px;
+    background-color: #7cf37a;
+    position: fixed;
+}
+
+.Container{
+  margin: auto;
+  width: 400px;
+  height: 250px; 
+  border-radius: 40px;
+  
+}
+
+.Container form {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px black;
+}
+
+.Container form h1{
+  margin-top: 0px;
+  text-align: center;
+}
+  
+.Container Button {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 120px;
+  height: 34px;
+  border: none;
+  outline: none;
+  background: rgb(77, 156, 77);
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  border-radius: 4px;
+}
+
+.Container button:hover {
+  opacity: 0.8;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+

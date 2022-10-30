@@ -1,0 +1,16 @@
+.Title{
+    position: relative;
+    margin-top: -195px;
+    margin-left: 700px;
+    
+}
+
+.Button {
+    line-height: 25px;
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 10px;
+    position:absolute;
+    top:0;
+    right:0;
+ }
